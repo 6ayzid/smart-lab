@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+  --color-surface: #F8F9FA;
+  --color-surface-container-low: #F0F4F8;
+  --color-surface-container-high: #E1E8ED;
+  --color-surface-container-highest: #D3DDE6;
+  --color-on-surface: #191C1E;
+  --color-on-surface-variant: #41474D;
+  --color-primary: #00639B;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #C2E7FF;
+  --color-on-primary-container: #001D32;
+}
+
+body {
+  background-color: #F8F9FA;
+  color: #191C1E;
+}
